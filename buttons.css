@@ -87,3 +87,12 @@
 a {
     color: #2a92ea;
 }
+
+
+ul {
+  list-style: circle inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
