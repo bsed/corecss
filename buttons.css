@@ -8,7 +8,7 @@
   padding: 12px 12px;
   cursor: pointer;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   -webkit-transition: all 60ms ease-in-out;
   transition: all 60ms ease-in-out;
   text-align: center;
@@ -26,18 +26,21 @@
   -moz-appearance: none;
   appearance: none;
 }
-.btn:hover, button:hover, [type=submit]:hover {
+
+.btn:hover, button:hover,[type=submit]:hover {
   -webkit-transition: all 60ms ease;
   transition: all 60ms ease;
   opacity: .85;
 }
+
 .btn:active, button:active, [type=submit]:active {
   -webkit-transition: all 60ms ease;
   transition: all 60ms ease;
   -webkit-transform: scale(0.97);
-          transform: scale(0.97);
+  transform: scale(0.97);
   opacity: .75;
 }
+
 .btn:focus, button:focus, [type=submit]:focus {
   outline: none;
 }
@@ -57,8 +60,7 @@
   transition: all 0.5s ease;
 }
 
-.btn-outline:hover,
-.btn-outline:active {
+.btn-outline:hover, .btn-outline:active {
   color: #000;
   background: #fff;
 }
@@ -70,8 +72,7 @@
   transition: all 0.5s ease;
 }
 
-.btn-outline-inverted:hover,
-.btn-outline-inverted:active {
+.btn-outline-inverted:hover, .btn-outline-inverted:active {
   color: #fff;
   background: #000;
 }
@@ -80,14 +81,13 @@
 /* 按钮清除 */
 
 .btn-clear {
-    background: transparent;
-    color: gray;
+  background: transparent;
+  color: gray;
 }
 
 a {
-    color: #2a92ea;
+  color: #2a92ea;
 }
-
 
 ul {
   list-style: circle inside;
@@ -96,4 +96,3 @@ ul {
 ol {
   list-style: decimal inside;
 }
-
