@@ -48,3 +48,16 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+/** 自定义文本选择 */
+::selection {
+  background: #e2eae2;
+}
+
+::-moz-selection {
+  background: #e2eae2;
+}
+
+::-webkit-selection {
+  background: #e2eae2;
+}
