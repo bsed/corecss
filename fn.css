@@ -100,3 +100,104 @@ html[xmlns] .clearfix {
     -moz-border-radius-bottomleft: 10px;
 }
 */
+
+/**
+    Polaroid Image Border
+
+  */
+img.polaroid {
+    background:#000; /*Change this to a background image or remove*/
+    border:solid #fff;
+    border-width:6px 6px 20px 6px;
+    box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
+    -webkit-box-shadow:1px 1px 5px #333;
+    -moz-box-shadow:1px 1px 5px #333;
+    height:200px; /*Set to height of your image or desired div*/
+    width:200px; /*Set to width of your image or desired div*/
+}
+
+
+/** 锚点伪类链接 */
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
+
+/* external links */
+a[href^="http://"] {
+  padding-right: 20px;
+  background: url(external.gif) no-repeat center right;
+}
+
+
+/* emails */
+
+a[href^="mailto:"] {
+  padding-right: 20px;
+  background: url(email.png) no-repeat center right;
+}
+
+
+/* pdfs */
+
+a[href$=".pdf"] {
+  padding-right: 20px;
+  background: url(pdf.png) no-repeat center right;
+}
+
+/**
+Pull Quotes with HTML5 and CSS
+http://miekd.com/articles/pull-quotes-with-html5-and-css/
+These pull quotes are supported by every modern browser down to IE8.
+
+  */
+.has-pullquote:before {
+  /* Reset metrics. */
+  padding: 0;
+  border: none;
+
+  /* Content */
+  content: attr(data-pullquote);
+
+  /* Pull out to the right, modular scale based margins. */
+  float: right;
+  width: 320px;
+  margin: 12px -140px 24px 36px;
+
+  /* Baseline correction */
+  position: relative;
+  top: 5px;
+
+  /* Typography (30px line-height equals 25% incremental leading) */
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.pullquote-adelle:before {
+  font-family: "adelle-1", "adelle-2";
+  font-weight: 100;
+  top: 10px !important;
+}
+
+.pullquote-helvetica:before {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  top: 7px !important;
+}
+
+.pullquote-facit:before {
+  font-family: "facitweb-1", "facitweb-2", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  top: 7px !important;
+}

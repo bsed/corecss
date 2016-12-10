@@ -73,3 +73,13 @@ h6 {
     font-size: 1.5rem;
   }
 }
+
+/* 隐藏H1文本Logo */
+h1 {
+    text-indent: -9999px;
+    margin: 0 auto;
+    width: 320px;
+    height: 85px;
+    background: transparent url("images/logo.png") no-repeat scroll;
+}
+
