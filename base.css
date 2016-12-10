@@ -32,16 +32,8 @@ body {
   line-height: 1.6;
   font-size: 1.5em;
   font-weight: 400;
-  font-family: "PingFang SC",
-  "Open Sans",
-  'Microsoft YaHei',
-  "WenQuanYi Micro Hei",
-  "HelveticaNeue",
-  "Helvetica Neue",
-  Helvetica,
-  Arial,
-  tohoma,
-  sans-serif;
+  font-family: "PingFang SC", "Open Sans",'Microsoft YaHei', "WenQuanYi Micro Hei","HelveticaNeue", "Helvetica Neue",
+Helvetica,Arial,tohoma, sans-serif;
   line-height: 1；
 }
  
