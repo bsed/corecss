@@ -35,6 +35,15 @@
   justify-content: center;
 }
 
+/**
+    垂直居中内容
+    https://www.w3.org/Style/Examples/007/center
+ */
+.container {
+    min-height: 6.5em;
+    display: table-cell;
+    vertical-align: middle;
+}
 
 /** 清除css Clearfix */
 
@@ -86,6 +95,7 @@ html[xmlns] .clearfix {
     -o-border-radius: 4px 3px 6px 10px;
     border-radius: 4px 3px 6px 10px;
 }
+
 
 /* alternative syntax broken into each line */
 /*#container {
