@@ -231,3 +231,9 @@ html {
     background-image: -o-linear-gradient(top, #83b842, #629721);
     background-image: linear-gradient(top, #83b842, #629721);
 }
+
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal;
+}
