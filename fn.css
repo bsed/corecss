@@ -232,12 +232,13 @@ These pull quotes are supported by every modern browser down to IE8.
 
 
 /** 全屏背景 */
-html {
+/*html {
     background: url('images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}*/
 
 /** css3 实现渐变 */
 #colorbox {
