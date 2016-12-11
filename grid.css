@@ -20,8 +20,7 @@
 }
 
 /* col */
-.row [class^='col-'],
-.row [class*=' col-']
+.row [class^='col-'], .row [class*=' col-']
 {
     float: left;
 
@@ -29,8 +28,7 @@
     margin-left: 2.083333%;
 }
 
-.row [class^='col-']:first-child,
-.row [class*=' col-']:first-child
+.row [class^='col-']:first-child, .row [class*=' col-']:first-child
 {
     margin-left: 0;
 }
@@ -119,8 +117,7 @@
         margin-top: 0;
     }
 
-    .row [class^='col-'],
-    .row [class*=' col-']
+    .row [class^='col-'], .row [class*=' col-']
     {
         width: 100%;
         margin-top: 2.0833%;
