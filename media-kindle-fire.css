@@ -4,8 +4,8 @@
 @media only screen
   and (min-device-width: 800px)
   and (max-device-width: 1280px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-
+  and (-webkit-min-device-pixel-ratio: 1.5)
+{
 }
 
 /* Portrait */
@@ -13,7 +13,8 @@
   and (min-device-width: 800px)
   and (max-device-width: 1280px)
   and (-webkit-min-device-pixel-ratio: 1.5)
-  and (orientation: portrait) {
+  and (orientation: portrait)
+{
 }
 
 /* Landscape */
@@ -21,8 +22,8 @@
   and (min-device-width: 800px)
   and (max-device-width: 1280px)
   and (-webkit-min-device-pixel-ratio: 1.5)
-  and (orientation: landscape) {
-
+  and (orientation: landscape)
+{
 }
 
 /* ----------- Kindle Fire HD 8.9" ----------- */
@@ -31,8 +32,8 @@
 @media only screen
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-
+  and (-webkit-min-device-pixel-ratio: 1.5)
+{
 }
 
 /* Portrait */
@@ -40,7 +41,8 @@
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1.5)
-  and (orientation: portrait) {
+  and (orientation: portrait)
+{
 }
 
 /* Landscape */
@@ -48,6 +50,6 @@
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1.5)
-  and (orientation: landscape) {
-
+  and (orientation: landscape)
+{
 }
