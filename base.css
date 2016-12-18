@@ -70,6 +70,10 @@ strong
     font-weight: bold;
 }
 
+/*Safari浏览器下的label标签，在按住的时候出现灰色背景*/
+label {
+  cursor: default;
+}
 table
 {
     border-spacing: 0;

@@ -65,9 +65,21 @@
   content: "";
   display: table;
 }
-
+/* 清除浮动*/
 .clearfix:after {
+  content:".";
+  display: block;
+  height:0;
   clear: both;
+  visibility: hidden;
+
+}
+/*清除safari默认select样式*/
+.clear-safari-751{
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 html[xmlns] .clearfix {
@@ -184,6 +196,15 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     cursor: pointer;
 }
 
+/*禁止长按链接与图片弹出菜单*/
+a, img {
+    -webkit-touch-callout: none;
+}
+
+.no-copy {
+    -webkit-user-select: none;
+    user-select: none;
+}
 /**
 Pull Quotes with HTML5 and CSS
 http://miekd.com/articles/pull-quotes-with-html5-and-css/
