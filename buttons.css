@@ -34,7 +34,7 @@
             appearance: none;
 }
 
-.btn:hover, button:hover, [type='submit']:hover
+.btn:hover, button:hover, [type='submit']:hover, [type='button']:hover, [type='reset']:hover, [type='button']:hover
 {
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
@@ -42,7 +42,7 @@
     opacity: .85;
 }
 
-.btn:active, button:active, [type='submit']':active
+.btn:active, button:active, [type='submit']':active, [type='button']:active, [type='reset']:active, [type='button']:active
 {
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
@@ -52,7 +52,7 @@
     opacity: .75;
 }
 
-.btn:focus, button:focus, [type='submit']:focus
+.btn:focus, button:focus, [type='submit']:focus, [type='button']:focus, [type='reset']:focus, [type='button']:focus
 {
     outline: none;
 }
