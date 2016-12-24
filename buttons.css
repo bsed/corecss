@@ -2,7 +2,7 @@
   按钮基础样式
 ------------------------------------------------------------*/
 
-.btn, button, [type=submit]
+.btn, button, [type='submit'], [type='button'], [type='reset'], [type='button']
 {
     font-family: inherit;
     font-weight: 500;
@@ -33,7 +33,7 @@
             appearance: none;
 }
 
-.btn:hover, button:hover, [type=submit]:hover
+.btn:hover, button:hover, [type='submit']:hover
 {
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
@@ -41,7 +41,7 @@
     opacity: .85;
 }
 
-.btn:active, button:active, [type=submit]:active
+.btn:active, button:active, [type='submit']':active
 {
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
@@ -51,12 +51,12 @@
     opacity: .75;
 }
 
-.btn:focus, button:focus, [type=submit]:focus
+.btn:focus, button:focus, [type='submit']:focus
 {
     outline: none;
 }
 
-.btn:disabled, button:disabled, [type=submit]:disabled
+.btn:disabled, button:disabled, [type='submit']:disabled
 {
     cursor: not-allowed;
 
