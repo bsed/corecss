@@ -3,7 +3,7 @@
 ------------------------------------------------------------*/
 
 /* input基础样式 */
-input[type=text], input[type=password], input[type=email], input[type=search], select
+input[type='text'], input[type='password'], input[type='email'], input[type='search'], select
 {
     font-family: 'Open Sans';
 
