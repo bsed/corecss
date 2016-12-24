@@ -12,7 +12,7 @@
 
     margin: 10px;
     padding: 12px 12px;
-
+    display: inline-block;
     cursor: pointer;
     -webkit-user-select: none;
             user-select: none;
@@ -22,6 +22,7 @@
     white-space: nowrap;
     text-decoration: none !important;
     text-transform: uppercase;
+
 
     color: #fff;
     border: 0 none;
