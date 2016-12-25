@@ -38,8 +38,10 @@
             appearance: none;
 }
 
-.btn:hover, button:hover, input[type='submit']:hover, [type='button']:hover, [type='reset']:hover, [type='button']:hover
+.btn:hover, button:hover, input[type='submit']:hover, input[type='button']:hover, input[type='reset']:hover, input[type='button']:hover
 {
+    -o-transition : all 60ms ease;
+     -moz-transition: all 60ms ease;
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
 
