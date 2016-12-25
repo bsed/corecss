@@ -4,9 +4,13 @@ base style core
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-*,*:after,*:before {
-  box-sizing: inherit;
+*,
+*:after,
+*:before
+{
+    box-sizing: inherit;
 }
+
 /** font-size 以 10 为底数 (10*) */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav,output, ruby, section, summary, time, mark, audio, video
 {
@@ -24,6 +28,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     outline: none;
 }
+
 
 html
 {
@@ -46,6 +51,7 @@ body
 
     letter-spacing: .01em;
 }
+
  
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
 {
@@ -74,8 +80,9 @@ strong
 }
 
 /*Safari浏览器下的label标签，在按住的时候出现灰色背景*/
-label {
-  cursor: default;
+label
+{
+    cursor: default;
 }
 table
 {
