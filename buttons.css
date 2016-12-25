@@ -52,15 +52,19 @@
 
 .btn:active, button:active, input[type='submit']:active, input[type='button']:active, input[type='reset']:active, input[type='button']:active
 {
-    -o-transition : all 60ms ease;
-    -moz-transition: all 60ms ease;
     -webkit-transition: all 60ms ease;
+       -moz-transition: all 60ms ease;
+         -o-transition: all 60ms ease;
             transition: all 60ms ease;
     -webkit-transform: scale(.97);
+       -moz-transform: scale(.97);
+        -ms-transform: scale(.97);
+         -o-transform: scale(.97);
             transform: scale(.97);
 
     opacity: .75;
 }
+
 
 .btn:focus, button:focus, input[type='submit']:focus, input[type='button']:focus, input[type='reset']:focus, input[type='button']:focus
 {
