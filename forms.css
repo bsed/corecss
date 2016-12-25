@@ -14,9 +14,9 @@ input[type='text'], input[type='password'], input[type='email'], input[type='sea
     margin: 8px 0;
     padding: 12px 20px;
 
-    -o-transition: .5s;
     -webkit-transition: .5s;
        -moz-transition: .5s;
+         -o-transition: .5s;
             transition: .5s;
 
     border: 1px solid #ccc;
