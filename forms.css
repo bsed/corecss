@@ -14,13 +14,15 @@ input[type='text'], input[type='password'], input[type='email'], input[type='sea
     margin: 8px 0;
     padding: 12px 20px;
 
+    -o-transition: .5s;
     -webkit-transition: .5s;
+       -moz-transition: .5s;
             transition: .5s;
 
     border: 1px solid #ccc;
     border-radius: 4px;
-    outline: none;
 }
+
 
 /* textarea 基础样式*/
 textarea, textarea[type=text]
@@ -35,18 +37,21 @@ textarea, textarea[type=text]
 
     resize: none;
     -webkit-transition: .5s;
+       -moz-transition: .5s;
+         -o-transition: .5s;
             transition: .5s;
 
     border: 1px solid #ccc;
     border-radius: 4px;
-    outline: none;
 }
+
 
 /*set border on focus*/
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus
 {
     border: 1px solid #99b3ff;
     border-radius: 4px;
+    outline: none;
 }
 
 textarea
