@@ -60,7 +60,7 @@
     opacity: .75;
 }
 
-.btn:focus, button:focus, [type='submit']:focus, [type='button']:focus, [type='reset']:focus, [type='button']:focus
+.btn:focus, button:focus, input[type='submit']:focus, input[type='button']:focus, input[type='reset']:focus, input[type='button']:focus
 {
     outline: none;
 }
