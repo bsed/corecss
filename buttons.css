@@ -48,7 +48,7 @@
     opacity: .85;
 }
 
-.btn:active, button:active, [type='submit']':active, [type='button']:active, [type='reset']:active, [type='button']:active
+.btn:active, button:active, input[type='submit']:active, input[type='button']:active, input[type='reset']:active, input[type='button']:active
 {
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
