@@ -52,6 +52,8 @@
 
 .btn:active, button:active, input[type='submit']:active, input[type='button']:active, input[type='reset']:active, input[type='button']:active
 {
+    -o-transition : all 60ms ease;
+    -moz-transition: all 60ms ease;
     -webkit-transition: all 60ms ease;
             transition: all 60ms ease;
     -webkit-transform: scale(.97);
@@ -65,7 +67,7 @@
     outline: none;
 }
 
-.btn:disabled, button:disabled, [type='submit']:disabled
+.btn:disabled, button:disabled, input[type='submit']:disabled
 {
     cursor: not-allowed;
 
