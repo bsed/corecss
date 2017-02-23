@@ -58,3 +58,10 @@ textarea
 {
     overflow: auto;
 }
+
+
+ /** 去除移动端内部阴影*/
+ input, textarea {
+     border: 0;  /*方法一*/
+     -webkit-appearance: none; /*方法二*/
+ }

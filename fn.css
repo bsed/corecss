@@ -261,6 +261,12 @@ These pull quotes are supported by every modern browser down to IE8.
     background-size: cover;
 }*/
 
+/** 禁止iOS和android用户选中e文字 */
+/*html, body {
+  -webkit-user-select: none;
+  user-select: none;
+}*/
+
 /** css3 实现渐变 */
 #colorbox {
     background: #629721;
