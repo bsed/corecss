@@ -3,36 +3,39 @@
 ------------------------------------------------------------*/
 
 .pull-right {
-  float: right;
+    float: right;
 }
 
 .pull-left {
-  float: left;
+    float: left;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .full-screen {
-  width: 100%;
-  min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .vertical-align {
-  display: flex;
-  align-items: center;
+    display: flex;
+
+    align-items: center;
 }
 
 .horizontal-align {
-  display: flex;
-  justify-content: center;
+    display: flex;
+
+    justify-content: center;
 }
 
 .center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
 
 /**
@@ -40,8 +43,10 @@
     https://www.w3.org/Style/Examples/007/center
  */
 .container {
-    min-height: 6.5em;
     display: table-cell;
+
+    min-height: 6.5em;
+
     vertical-align: middle;
 }
 
@@ -62,32 +67,34 @@
 
 .clearfix:before,
 .container:after {
-  content: "";
-  display: table;
+    display: table;
+
+    content: "";
 }
 /* 清除浮动*/
 .clearfix:after {
-  content:".";
-  display: block;
-  height:0;
-  clear: both;
-  visibility: hidden;
+    display: block;
+    visibility: hidden;
+    clear: both;
 
+    height: 0;
+
+    content: ".";
 }
 /*清除safari默认select样式*/
-.clear-safari-751{
+.clear-safari-751 {
     -ms-progress-appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+       -moz-appearance: none;
+            appearance: none;
 }
 
 html[xmlns] .clearfix {
-  display: block;
+    display: block;
 }
 
 * html .clearfix {
-  height: 1%;
+    height: 1%;
 }
 
 /**
@@ -95,17 +102,19 @@ html[xmlns] .clearfix {
    https://perishablepress.com/cross-browser-transparency-via-css/
 */
 .transparent {
+           opacity: 0.5;           /* fx, safari, opera */
+
     filter: alpha(opacity=50); /* internet explorer */
     -khtml-opacity: 0.5;      /* khtml, old safari */
-    -moz-opacity: 0.5;       /* mozilla, netscape */
-    opacity: 0.5;           /* fx, safari, opera */
+      -moz-opacity: 0.5;       /* mozilla, netscape */
 }
 /** 圆角效果*/
 #container {
     -webkit-border-radius: 4px 3px 6px 10px;
-    -moz-border-radius: 4px 3px 6px 10px;
-    -o-border-radius: 4px 3px 6px 10px;
-    border-radius: 4px 3px 6px 10px;
+       -moz-border-radius: 4px 3px 6px 10px;
+            border-radius: 4px 3px 6px 10px;
+
+         -o-border-radius: 4px 3px 6px 10px;
 }
 
 
@@ -128,82 +137,94 @@ html[xmlns] .clearfix {
 
   */
 img.polaroid {
-    background:#000; /*Change this to a background image or remove*/
-    border:solid #fff;
-    border-width:6px 6px 20px 6px;
-    box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
-    -webkit-box-shadow:1px 1px 5px #333;
-    -moz-box-shadow:1px 1px 5px #333;
-    height:200px; /*Set to height of your image or desired div*/
-    width:200px; /*Set to width of your image or desired div*/
+    width: 200px; /*Set to width of your image or desired div*/
+    height: 200px; /*Set to height of your image or desired div*/
+
+    border: solid #fff;
+    border-width: 6px 6px 20px 6px;
+    background: #000; /*Change this to a background image or remove*/
+    -webkit-box-shadow: 1px 1px 5px #333;
+       -moz-box-shadow: 1px 1px 5px #333;
+            box-shadow: 1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
 }
 
 
 /** 锚点伪类链接 */
 a:link {
-  color: blue;
+    color: blue;
 }
 
 a:visited {
-  color: purple;
+    color: purple;
 }
 
 a:hover {
-  color: red;
+    color: red;
 }
 
 a:active {
-  color: yellow;
+    color: yellow;
 }
 
 /* external links */
 a[href^="http://"] {
-  padding-right: 20px;
-  background: url(external.gif) no-repeat center right;
+    padding-right: 20px;
+
+    background: url(external.gif) no-repeat center right;
 }
 
 
 /* emails */
 
 a[href^="mailto:"] {
-  padding-right: 20px;
-  background: url(email.png) no-repeat center right;
+    padding-right: 20px;
+
+    background: url(email.png) no-repeat center right;
 }
 
 
 /* pdfs */
 
 a[href$=".pdf"] {
-  padding-right: 20px;
-  background: url(pdf.png) no-repeat center right;
+    padding-right: 20px;
+
+    background: url(pdf.png) no-repeat center right;
 }
 
 /* zip
 Same as above but for zip files and it adds an icon at the right of the link. Therefore the :after
 */
-a[href$=".zip"]:after{
-	content: url(icons/zip.png);
+a[href$=".zip"]:after {
+    content: url(icons/zip.png);
 }
 /* djavupixel
 The *= specifies that at least one instance of the substring “djavupixel” matches.
 */
 a[href *="djavupixel"] {
-  padding-right: 17px;
-  background: url(icons/super-star.png) no-repeat right;
+    padding-right: 17px;
+
+    background: url(icons/super-star.png) no-repeat right;
 }
 
-a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+a[href],
+input[type="submit"],
+input[type="image"],
+label[for],
+select,
+button,
+.pointer {
     cursor: pointer;
 }
 
 /*禁止长按链接与图片弹出菜单*/
-a, img {
+a,
+img {
     -webkit-touch-callout: none;
 }
 
 .no-copy {
     -webkit-user-select: none;
-    user-select: none;
+            user-select: none;
 }
 /**
 Pull Quotes with HTML5 and CSS
@@ -212,43 +233,47 @@ These pull quotes are supported by every modern browser down to IE8.
 
   */
 .has-pullquote:before {
-  /* Reset metrics. */
-  padding: 0;
-  border: none;
+    /* Typography (30px line-height equals 25% incremental leading) */
+    font-size: 23px;
+    line-height: 30px;
+    /* Baseline correction */
 
-  /* Content */
-  content: attr(data-pullquote);
+    position: relative;
+    top: 5px;
+    /* Pull out to the right, modular scale based margins. */
 
-  /* Pull out to the right, modular scale based margins. */
-  float: right;
-  width: 320px;
-  margin: 12px -140px 24px 36px;
+    float: right;
 
-  /* Baseline correction */
-  position: relative;
-  top: 5px;
+    width: 320px;
+    margin: 12px -140px 24px 36px;
+    /* Reset metrics. */
+    padding: 0;
+    /* Content */
 
-  /* Typography (30px line-height equals 25% incremental leading) */
-  font-size: 23px;
-  line-height: 30px;
+    content: attr(data-pullquote);
+
+    border: none;
 }
 
 .pullquote-adelle:before {
-  font-family: "adelle-1", "adelle-2";
-  font-weight: 100;
-  top: 10px !important;
+    font-family: "adelle-1", "adelle-2";
+    font-weight: 100;
+
+    top: 10px !important;
 }
 
 .pullquote-helvetica:before {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-weight: bold;
-  top: 7px !important;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+
+    top: 7px !important;
 }
 
 .pullquote-facit:before {
-  font-family: "facitweb-1", "facitweb-2", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  top: 7px !important;
+    font-family: "facitweb-1", "facitweb-2", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+    top: 7px !important;
 }
 
 
@@ -272,45 +297,50 @@ These pull quotes are supported by every modern browser down to IE8.
     background: #629721;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#83b842), to(#629721));
     background-image: -webkit-linear-gradient(top, #83b842, #629721);
-    background-image: -moz-linear-gradient(top, #83b842, #629721);
-    background-image: -ms-linear-gradient(top, #83b842, #629721);
-    background-image: -o-linear-gradient(top, #83b842, #629721);
-    background-image: linear-gradient(top, #83b842, #629721);
+    background-image:    -moz-linear-gradient(top, #83b842, #629721);
+    background-image:     -ms-linear-gradient(top, #83b842, #629721);
+    background-image:      -o-linear-gradient(top, #83b842, #629721);
+    background-image:         linear-gradient(top, #83b842, #629721);
 }
 
 .amp {
-  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
-  font-style: italic;
-  font-weight: normal;
+    font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif;
+    font-weight: normal;
+    font-style: italic;
 }
 
-p:first-letter{
-    display: block;
-    margin: 5px 0 0 5px;
-    float: left;
-    color: #ff3366;
-    font-size: 5.4em;
+p:first-letter {
     font-family: Georgia, Times New Roman, serif;
+    font-size: 5.4em;
+
+    display: block;
+    float: left;
+
+    margin: 5px 0 0 5px;
+
+    color: #f36;
 }
 
 #mydiv {
-    -moz-box-shadow: inset 2px 0 4px #000;
     -webkit-box-shadow: inset 2px 0 4px #000;
-    box-shadow: inset 2px 0 4px #000;
+       -moz-box-shadow: inset 2px 0 4px #000;
+            box-shadow: inset 2px 0 4px #000;
 }
 
 #mydiv {
     -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
-    -moz-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+       -moz-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+            box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
 }
 
 #footer {
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 30px;
+    bottom: 0;
+    left: 0;
+
     width: 100%;
+    height: 30px;
+
     background: #444;
 }
 
@@ -320,17 +350,21 @@ p:first-letter{
     top: expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 .bg {
-    width:200px;
-    height:100px;
+    width: 200px;
+    height: 100px;
+
     background: url(/folder/yourimage.png) no-repeat;
-    _background:none;
-    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/folder/yourimage.png',sizingMethod='crop');
+
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/folder/yourimage.png',sizingMethod='crop');
 }
 
 
 /* 1px gif method */
-img, .png {
+img,
+.png {
     position: relative;
+
     behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
        this.src = "images/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
@@ -340,20 +374,23 @@ img, .png {
 
 /** Cross-Browser Minimum Height */
 #container {
-    min-height: 550px;
     height: auto !important;
     height: 550px;
+    min-height: 550px;
 }
 
 body:before {
-  content: "";
-  position: fixed;
-  top: -10px;
-  left: 0;
-  width: 100%;
-  height: 10px;
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
-  z-index: 100;
+    position: fixed;
+    z-index: 100;
+    top: -10px;
+    left: 0;
+
+    width: 100%;
+    height: 10px;
+
+    content: "";
+
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+       -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
