@@ -83,12 +83,31 @@ html {
     background-repeat: no-repeat;
     box-sizing: inherit;
 }
+
 ::before,
 ::after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
     text-decoration: inherit;
     vertical-align: inherit;
+}
+
+:root {
+    box-sizing: border-box;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: white;
+    color: #444;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 480px) {
+     :root {
+        font-size: 18px;
+    }
 }
 
 img,
