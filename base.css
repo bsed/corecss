@@ -91,6 +91,18 @@ video {
     max-width: 100%;
 }
 
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
 iframe {
     border: 0;
 }
@@ -154,7 +166,8 @@ header,
 hgroup,
 menu,
 nav,
-section {
+section,
+summary {
     display: block;
 }
 
@@ -314,13 +327,10 @@ a:hover {
     top: 0;
 }
 
-
-ul
-{
+ul {
     list-style: circle inside;
 }
 
-ol
-{
+ol {
     list-style: decimal inside;
 }
