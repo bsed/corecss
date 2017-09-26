@@ -1,6 +1,7 @@
 /********************************
 base style core
 *********************************/
+
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -11,103 +12,308 @@ base style core
     box-sizing: inherit;
 }
 */
-/** font-size 以 10 为底数 (10*) */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav,output, ruby, section, summary, time, mark, audio, video
-{
-    font: inherit;
-    font-size: 100%;
 
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+
+/** font-size 以 10 为底数 (10*) */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
+}
 
-    vertical-align: baseline;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
 
+ul {
+    list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+html {
+    height: 101%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /** 强制垂直滚动条 */
+    /* margin-top: 0; */
+}
+
+* {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+    max-width: 100%;
+}
+
+iframe {
     border: 0;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-html
-{
-    height: 101%; /** 强制垂直滚动条 */
-    margin-top: 0;
+td,
+th {
+    padding: 0;
+    text-align: left;
+}
+
+html {
+    background-color: #fff;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 
 /** 设置 body 的字体颜色和字体尺寸*/
 
-body
-{
+body {
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/*
+body {
     font-family: 62.5%;
-    font-family: 'PingFang SC', 'Open Sans','Microsoft YaHei', 'WenQuanYi Micro Hei','HelveticaNeue', 'Helvetica Neue',
-    Helvetica,Arial,tohoma, sans-serif;
+    font-family: 'PingFang SC', 'Open Sans', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, tohoma, sans-serif;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.6;
     line-height: 1;
-
     letter-spacing: .01em;
 }
+ */
 
- 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
-{
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
-ol, ul
-{
+body,
+button,
+input,
+select,
+textarea {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: baseline;
+}
+
+small {
+    font-size: .875em;
+}
+
+strong {
+    color: #363636;
+    font-weight: 700;
+}
+
+ol,
+ul {
     list-style: none;
 }
 
-blockquote, q
-{
+pre {
+    background-color: whitesmoke;
+    color: #4a4a4a;
+    font-size: 0.875em;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+pre code {
+    -webkit-overflow-scrolling: touch;
+    background: none;
+    color: inherit;
+    display: block;
+    font-size: 1em;
+    overflow-x: auto;
+    padding: 1.25rem 1.5rem;
+}
+
+code {
+    background-color: whitesmoke;
+    color: #ff3860;
+    font-size: .875em;
+    font-weight: normal;
+    padding: .25em .5em .25em;
+}
+
+hr {
+    background-color: #dbdbdb;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+}
+
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after
-{
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
 
-strong
-{
+strong {
     font-weight: bold;
 }
 
+
 /*Safari浏览器下的label标签，在按住的时候出现灰色背景*/
-label
-{
+
+label {
     cursor: default;
 }
-table
-{
+
+table {
     border-spacing: 0;
     border-collapse: collapse;
 }
 
-img
-{
-    max-width: 100%;
+table td,
+table th {
+    text-align: left;
+    vertical-align: top;
+}
 
+table th {
+    color: #363636;
+}
+
+img {
+    max-width: 100%;
     border: 0;
 }
 
-p
-{
+p {
     font-size: 1.2em;
     line-height: 1.0em;
-
     color: #333;
 }
 
-a
-{
-    color: #2a92ea;
+a {
+    color: #00d1b2;
+    cursor: pointer;
+    text-decoration: none;
 }
+
+a strong {
+    color: currentColor;
+}
+
+a:hover {
+    color: #363636;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.pl {
+    float: left !important;
+}
+
+.pr {
+    float: right !important;
+}
+
+.clipped {
+    overflow: hidden !important;
+}
+
+.overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 
 ul
 {

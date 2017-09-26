@@ -120,19 +120,1163 @@
     background: transparent;
 }
 
-a
-{
-    color: #2a92ea;
+.btn {
+  background-color: #9e9e9e;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-family: sans-serif;
+  margin: 3px;
+  padding: 10px 30px;
+  text-decoration: none;
+  border: 1px solid;
+  font-size: 16px;
 }
 
-ul
-{
-    list-style: circle inside;
+.btn.black {
+  background-color: #000;
+  border-color: #000;
+}
+.btn.white {
+  background-color: #fff;
+  border-color:#fff;
+  color:#000;
+}
+.btn.black.outline {
+  background-color: transparent;
+  border-color:#000;
+  color:#000;
+}
+.btn.black.outline:hover {
+  background-color: #000;
+  color:#fff;
 }
 
-ol
-{
-    list-style: decimal inside;
+.btn.white.outline {
+  background-color: transparent;
+  border-color:#fff;
+  color:#fff;
+}
+.btn.white.outline:hover {
+  background-color: #fff;
+  color:#000;
+}
+
+.btn.amber {
+  background-color: #ffc107;
+  border-color: #ffb300;
+}
+.btn.amber:hover {
+  background-color: #ffb300;
+}
+.btn.amber.dark {
+  background-color: #ff8f00;
+  border-color: #ff6f00;
+}
+.btn.amber.dark:hover {
+  background-color: #ff6f00;
+}
+.btn.amber.light {
+  background-color: #ffe082;
+  border-color: #ffd54f;
+}
+.btn.amber.light:hover {
+  background-color: #ffd54f;
+}
+.btn.amber.outline {
+  background-color: transparent;
+  border-color: #ffc107;
+  color: #ffc107;
+}
+.btn.amber.outline:hover {
+  color: #fff;
+  background-color: #ffc107;
+}
+.btn.amber.outline.dark {
+  background-color: transparent;
+  border-color: #ff8f00;
+  color: #ff8f00;
+}
+.btn.amber.outline.dark:hover {
+  background-color: #ff8f00;
+  color: #fff;
+}
+.btn.amber.outline.light {
+  background-color: transparent;
+  border-color: #ffe082;
+  color: #ffe082;
+}
+.btn.amber.outline.light:hover {
+  background-color: #ffe082;
+  color: #fff;
+}
+.btn.amber.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffc107), to(#ff8f00));
+  background: linear-gradient(#ffc107, #ff8f00);
+  color: #fff;
+}
+.btn.amber.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb300), to(#ff6f00));
+  background: linear-gradient(#ffb300, #ff6f00);
+}
+.btn.blue-grey {
+  background-color: #607d8b;
+  border-color: #546e7a;
+}
+.btn.blue-grey:hover {
+  background-color: #546e7a;
+}
+.btn.blue-grey.dark {
+  background-color: #37474f;
+  border-color: #263238;
+}
+.btn.blue-grey.dark:hover {
+  background-color: #263238;
+}
+.btn.blue-grey.light {
+  background-color: #b0bec5;
+  border-color: #90a4ae;
+}
+.btn.blue-grey.light:hover {
+  background-color: #90a4ae;
+}
+.btn.blue-grey.outline {
+  background-color: transparent;
+  border-color: #607d8b;
+  color: #607d8b;
+}
+.btn.blue-grey.outline:hover {
+  color: #fff;
+  background-color: #607d8b;
+}
+.btn.blue-grey.outline.dark {
+  background-color: transparent;
+  border-color: #37474f;
+  color: #37474f;
+}
+.btn.blue-grey.outline.dark:hover {
+  background-color: #37474f;
+  color: #fff;
+}
+.btn.blue-grey.outline.light {
+  background-color: transparent;
+  border-color: #b0bec5;
+  color: #b0bec5;
+}
+.btn.blue-grey.outline.light:hover {
+  background-color: #b0bec5;
+  color: #fff;
+}
+.btn.blue-grey.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#607d8b), to(#37474f));
+  background: linear-gradient(#607d8b, #37474f);
+  color: #fff;
+}
+.btn.blue-grey.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#546e7a), to(#263238));
+  background: linear-gradient(#546e7a, #263238);
+}
+.btn.blue {
+  background-color: #2196f3;
+  border-color: #1e88e5;
+}
+.btn.blue:hover {
+  background-color: #1e88e5;
+}
+.btn.blue.dark {
+  background-color: #1565c0;
+  border-color: #0d47a1;
+}
+.btn.blue.dark:hover {
+  background-color: #0d47a1;
+}
+.btn.blue.light {
+  background-color: #90caf9;
+  border-color: #64b5f6;
+}
+.btn.blue.light:hover {
+  background-color: #64b5f6;
+}
+.btn.blue.outline {
+  background-color: transparent;
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.btn.blue.outline:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+.btn.blue.outline.dark {
+  background-color: transparent;
+  border-color: #1565c0;
+  color: #1565c0;
+}
+.btn.blue.outline.dark:hover {
+  background-color: #1565c0;
+  color: #fff;
+}
+.btn.blue.outline.light {
+  background-color: transparent;
+  border-color: #90caf9;
+  color: #90caf9;
+}
+.btn.blue.outline.light:hover {
+  background-color: #90caf9;
+  color: #fff;
+}
+.btn.blue.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2196f3), to(#1565c0));
+  background: linear-gradient(#2196f3, #1565c0);
+  color: #fff;
+}
+.btn.blue.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e88e5), to(#0d47a1));
+  background: linear-gradient(#1e88e5, #0d47a1);
+}
+.btn.brown {
+  background-color: #795548;
+  border-color: #6d4c41;
+}
+.btn.brown:hover {
+  background-color: #6d4c41;
+}
+.btn.brown.dark {
+  background-color: #4e342e;
+  border-color: #3e2723;
+}
+.btn.brown.dark:hover {
+  background-color: #3e2723;
+}
+.btn.brown.light {
+  background-color: #bcaaa4;
+  border-color: #a1887f;
+}
+.btn.brown.light:hover {
+  background-color: #a1887f;
+}
+.btn.brown.outline {
+  background-color: transparent;
+  border-color: #795548;
+  color: #795548;
+}
+.btn.brown.outline:hover {
+  color: #fff;
+  background-color: #795548;
+}
+.btn.brown.outline.dark {
+  background-color: transparent;
+  border-color: #4e342e;
+  color: #4e342e;
+}
+.btn.brown.outline.dark:hover {
+  background-color: #4e342e;
+  color: #fff;
+}
+.btn.brown.outline.light {
+  background-color: transparent;
+  border-color: #bcaaa4;
+  color: #bcaaa4;
+}
+.btn.brown.outline.light:hover {
+  background-color: #bcaaa4;
+  color: #fff;
+}
+.btn.brown.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#795548), to(#4e342e));
+  background: linear-gradient(#795548, #4e342e);
+  color: #fff;
+}
+.btn.brown.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6d4c41), to(#3e2723));
+  background: linear-gradient(#6d4c41, #3e2723);
+}
+.btn.cyan {
+  background-color: #00bcd4;
+  border-color: #00acc1;
+}
+.btn.cyan:hover {
+  background-color: #00acc1;
+}
+.btn.cyan.dark {
+  background-color: #00838f;
+  border-color: #006064;
+}
+.btn.cyan.dark:hover {
+  background-color: #006064;
+}
+.btn.cyan.light {
+  background-color: #80deea;
+  border-color: #4dd0e1;
+}
+.btn.cyan.light:hover {
+  background-color: #4dd0e1;
+}
+.btn.cyan.outline {
+  background-color: transparent;
+  border-color: #00bcd4;
+  color: #00bcd4;
+}
+.btn.cyan.outline:hover {
+  color: #fff;
+  background-color: #00bcd4;
+}
+.btn.cyan.outline.dark {
+  background-color: transparent;
+  border-color: #00838f;
+  color: #00838f;
+}
+.btn.cyan.outline.dark:hover {
+  background-color: #00838f;
+  color: #fff;
+}
+.btn.cyan.outline.light {
+  background-color: transparent;
+  border-color: #80deea;
+  color: #80deea;
+}
+.btn.cyan.outline.light:hover {
+  background-color: #80deea;
+  color: #fff;
+}
+.btn.cyan.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00bcd4), to(#00838f));
+  background: linear-gradient(#00bcd4, #00838f);
+  color: #fff;
+}
+.btn.cyan.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00acc1), to(#006064));
+  background: linear-gradient(#00acc1, #006064);
+}
+.btn.deep-orange {
+  background-color: #ff5722;
+  border-color: #f4511e;
+}
+.btn.deep-orange:hover {
+  background-color: #f4511e;
+}
+.btn.deep-orange.dark {
+  background-color: #d84315;
+  border-color: #bf360c;
+}
+.btn.deep-orange.dark:hover {
+  background-color: #bf360c;
+}
+.btn.deep-orange.light {
+  background-color: #ffab91;
+  border-color: #ff8a65;
+}
+.btn.deep-orange.light:hover {
+  background-color: #ff8a65;
+}
+.btn.deep-orange.outline {
+  background-color: transparent;
+  border-color: #ff5722;
+  color: #ff5722;
+}
+.btn.deep-orange.outline:hover {
+  color: #fff;
+  background-color: #ff5722;
+}
+.btn.deep-orange.outline.dark {
+  background-color: transparent;
+  border-color: #d84315;
+  color: #d84315;
+}
+.btn.deep-orange.outline.dark:hover {
+  background-color: #d84315;
+  color: #fff;
+}
+.btn.deep-orange.outline.light {
+  background-color: transparent;
+  border-color: #ffab91;
+  color: #ffab91;
+}
+.btn.deep-orange.outline.light:hover {
+  background-color: #ffab91;
+  color: #fff;
+}
+.btn.deep-orange.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff5722), to(#d84315));
+  background: linear-gradient(#ff5722, #d84315);
+  color: #fff;
+}
+.btn.deep-orange.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4511e), to(#bf360c));
+  background: linear-gradient(#f4511e, #bf360c);
+}
+.btn.deep-purple {
+  background-color: #673ab7;
+  border-color: #5e35b1;
+}
+.btn.deep-purple:hover {
+  background-color: #5e35b1;
+}
+.btn.deep-purple.dark {
+  background-color: #4527a0;
+  border-color: #311b92;
+}
+.btn.deep-purple.dark:hover {
+  background-color: #311b92;
+}
+.btn.deep-purple.light {
+  background-color: #b39ddb;
+  border-color: #9575cd;
+}
+.btn.deep-purple.light:hover {
+  background-color: #9575cd;
+}
+.btn.deep-purple.outline {
+  background-color: transparent;
+  border-color: #673ab7;
+  color: #673ab7;
+}
+.btn.deep-purple.outline:hover {
+  color: #fff;
+  background-color: #673ab7;
+}
+.btn.deep-purple.outline.dark {
+  background-color: transparent;
+  border-color: #4527a0;
+  color: #4527a0;
+}
+.btn.deep-purple.outline.dark:hover {
+  background-color: #4527a0;
+  color: #fff;
+}
+.btn.deep-purple.outline.light {
+  background-color: transparent;
+  border-color: #b39ddb;
+  color: #b39ddb;
+}
+.btn.deep-purple.outline.light:hover {
+  background-color: #b39ddb;
+  color: #fff;
+}
+.btn.deep-purple.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#673ab7), to(#4527a0));
+  background: linear-gradient(#673ab7, #4527a0);
+  color: #fff;
+}
+.btn.deep-purple.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5e35b1), to(#311b92));
+  background: linear-gradient(#5e35b1, #311b92);
+}
+.btn.green {
+  background-color: #4caf50;
+  border-color: #43a047;
+}
+.btn.green:hover {
+  background-color: #43a047;
+}
+.btn.green.dark {
+  background-color: #2e7d32;
+  border-color: #1b5e20;
+}
+.btn.green.dark:hover {
+  background-color: #1b5e20;
+}
+.btn.green.light {
+  background-color: #a5d6a7;
+  border-color: #81c784;
+}
+.btn.green.light:hover {
+  background-color: #81c784;
+}
+.btn.green.outline {
+  background-color: transparent;
+  border-color: #4caf50;
+  color: #4caf50;
+}
+.btn.green.outline:hover {
+  color: #fff;
+  background-color: #4caf50;
+}
+.btn.green.outline.dark {
+  background-color: transparent;
+  border-color: #2e7d32;
+  color: #2e7d32;
+}
+.btn.green.outline.dark:hover {
+  background-color: #2e7d32;
+  color: #fff;
+}
+.btn.green.outline.light {
+  background-color: transparent;
+  border-color: #a5d6a7;
+  color: #a5d6a7;
+}
+.btn.green.outline.light:hover {
+  background-color: #a5d6a7;
+  color: #fff;
+}
+.btn.green.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4caf50), to(#2e7d32));
+  background: linear-gradient(#4caf50, #2e7d32);
+  color: #fff;
+}
+.btn.green.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#43a047), to(#1b5e20));
+  background: linear-gradient(#43a047, #1b5e20);
+}
+.btn.grey {
+  background-color: #9e9e9e;
+  border-color: #757575;
+}
+.btn.grey:hover {
+  background-color: #757575;
+}
+.btn.grey.dark {
+  background-color: #424242;
+  border-color: #212121;
+}
+.btn.grey.dark:hover {
+  background-color: #212121;
+}
+.btn.grey.light {
+  background-color: #eee;
+  border-color: #e0e0e0;
+}
+.btn.grey.light:hover {
+  background-color: #e0e0e0;
+}
+.btn.grey.outline {
+  background-color: transparent;
+  border-color: #9e9e9e;
+  color: #9e9e9e;
+}
+.btn.grey.outline:hover {
+  color: #fff;
+  background-color: #9e9e9e;
+}
+.btn.grey.outline.dark {
+  background-color: transparent;
+  border-color: #424242;
+  color: #424242;
+}
+.btn.grey.outline.dark:hover {
+  background-color: #424242;
+  color: #fff;
+}
+.btn.grey.outline.light {
+  background-color: transparent;
+  border-color: #eee;
+  color: #eee;
+}
+.btn.grey.outline.light:hover {
+  background-color: #eee;
+  color: #fff;
+}
+.btn.grey.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#424242));
+  background: linear-gradient(#9e9e9e, #424242);
+  color: #fff;
+}
+.btn.grey.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#212121));
+  background: linear-gradient(#757575, #212121);
+}
+.btn.indigo {
+  background-color: #3f51b5;
+  border-color: #3949ab;
+}
+.btn.indigo:hover {
+  background-color: #3949ab;
+}
+.btn.indigo.dark {
+  background-color: #283593;
+  border-color: #1a237e;
+}
+.btn.indigo.dark:hover {
+  background-color: #1a237e;
+}
+.btn.indigo.light {
+  background-color: #9fa8da;
+  border-color: #7986cb;
+}
+.btn.indigo.light:hover {
+  background-color: #7986cb;
+}
+.btn.indigo.outline {
+  background-color: transparent;
+  border-color: #3f51b5;
+  color: #3f51b5;
+}
+.btn.indigo.outline:hover {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.btn.indigo.outline.dark {
+  background-color: transparent;
+  border-color: #283593;
+  color: #283593;
+}
+.btn.indigo.outline.dark:hover {
+  background-color: #283593;
+  color: #fff;
+}
+.btn.indigo.outline.light {
+  background-color: transparent;
+  border-color: #9fa8da;
+  color: #9fa8da;
+}
+.btn.indigo.outline.light:hover {
+  background-color: #9fa8da;
+  color: #fff;
+}
+.btn.indigo.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f51b5), to(#283593));
+  background: linear-gradient(#3f51b5, #283593);
+  color: #fff;
+}
+.btn.indigo.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3949ab), to(#1a237e));
+  background: linear-gradient(#3949ab, #1a237e);
+}
+.btn.light-blue {
+  background-color: #03a9f4;
+  border-color: #039be5;
+}
+.btn.light-blue:hover {
+  background-color: #039be5;
+}
+.btn.light-blue.dark {
+  background-color: #0277bd;
+  border-color: #01579b;
+}
+.btn.light-blue.dark:hover {
+  background-color: #01579b;
+}
+.btn.light-blue.light {
+  background-color: #81d4fa;
+  border-color: #4fc3f7;
+}
+.btn.light-blue.light:hover {
+  background-color: #4fc3f7;
+}
+.btn.light-blue.outline {
+  background-color: transparent;
+  border-color: #03a9f4;
+  color: #03a9f4;
+}
+.btn.light-blue.outline:hover {
+  color: #fff;
+  background-color: #03a9f4;
+}
+.btn.light-blue.outline.dark {
+  background-color: transparent;
+  border-color: #0277bd;
+  color: #0277bd;
+}
+.btn.light-blue.outline.dark:hover {
+  background-color: #0277bd;
+  color: #fff;
+}
+.btn.light-blue.outline.light {
+  background-color: transparent;
+  border-color: #81d4fa;
+  color: #81d4fa;
+}
+.btn.light-blue.outline.light:hover {
+  background-color: #81d4fa;
+  color: #fff;
+}
+.btn.light-blue.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), to(#0277bd));
+  background: linear-gradient(#03a9f4, #0277bd);
+  color: #fff;
+}
+.btn.light-blue.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#039be5), to(#01579b));
+  background: linear-gradient(#039be5, #01579b);
+}
+.btn.light-green {
+  background-color: #8bc34a;
+  border-color: #7cb342;
+}
+.btn.light-green:hover {
+  background-color: #7cb342;
+}
+.btn.light-green.dark {
+  background-color: #558b2f;
+  border-color: #33691e;
+}
+.btn.light-green.dark:hover {
+  background-color: #33691e;
+}
+.btn.light-green.light {
+  background-color: #c5e1a5;
+  border-color: #aed581;
+}
+.btn.light-green.light:hover {
+  background-color: #aed581;
+}
+.btn.light-green.outline {
+  background-color: transparent;
+  border-color: #8bc34a;
+  color: #8bc34a;
+}
+.btn.light-green.outline:hover {
+  color: #fff;
+  background-color: #8bc34a;
+}
+.btn.light-green.outline.dark {
+  background-color: transparent;
+  border-color: #558b2f;
+  color: #558b2f;
+}
+.btn.light-green.outline.dark:hover {
+  background-color: #558b2f;
+  color: #fff;
+}
+.btn.light-green.outline.light {
+  background-color: transparent;
+  border-color: #c5e1a5;
+  color: #c5e1a5;
+}
+.btn.light-green.outline.light:hover {
+  background-color: #c5e1a5;
+  color: #fff;
+}
+.btn.light-green.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8bc34a), to(#558b2f));
+  background: linear-gradient(#8bc34a, #558b2f);
+  color: #fff;
+}
+.btn.light-green.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7cb342), to(#33691e));
+  background: linear-gradient(#7cb342, #33691e);
+}
+.btn.lime {
+  background-color: #cddc39;
+  border-color: #c0ca33;
+}
+.btn.lime:hover {
+  background-color: #c0ca33;
+}
+.btn.lime.dark {
+  background-color: #9e9d24;
+  border-color: #827717;
+}
+.btn.lime.dark:hover {
+  background-color: #827717;
+}
+.btn.lime.light {
+  background-color: #e6ee9c;
+  border-color: #dce775;
+}
+.btn.lime.light:hover {
+  background-color: #dce775;
+}
+.btn.lime.outline {
+  background-color: transparent;
+  border-color: #cddc39;
+  color: #cddc39;
+}
+.btn.lime.outline:hover {
+  color: #fff;
+  background-color: #cddc39;
+}
+.btn.lime.outline.dark {
+  background-color: transparent;
+  border-color: #9e9d24;
+  color: #9e9d24;
+}
+.btn.lime.outline.dark:hover {
+  background-color: #9e9d24;
+  color: #fff;
+}
+.btn.lime.outline.light {
+  background-color: transparent;
+  border-color: #e6ee9c;
+  color: #e6ee9c;
+}
+.btn.lime.outline.light:hover {
+  background-color: #e6ee9c;
+  color: #fff;
+}
+.btn.lime.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#cddc39), to(#9e9d24));
+  background: linear-gradient(#cddc39, #9e9d24);
+  color: #fff;
+}
+.btn.lime.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c0ca33), to(#827717));
+  background: linear-gradient(#c0ca33, #827717);
+}
+.btn.orange {
+  background-color: #ff9800;
+  border-color: #fb8c00;
+}
+.btn.orange:hover {
+  background-color: #fb8c00;
+}
+.btn.orange.dark {
+  background-color: #ef6c00;
+  border-color: #e65100;
+}
+.btn.orange.dark:hover {
+  background-color: #e65100;
+}
+.btn.orange.light {
+  background-color: #ffcc80;
+  border-color: #ffb74d;
+}
+.btn.orange.light:hover {
+  background-color: #ffb74d;
+}
+.btn.orange.outline {
+  background-color: transparent;
+  border-color: #ff9800;
+  color: #ff9800;
+}
+.btn.orange.outline:hover {
+  color: #fff;
+  background-color: #ff9800;
+}
+.btn.orange.outline.dark {
+  background-color: transparent;
+  border-color: #ef6c00;
+  color: #ef6c00;
+}
+.btn.orange.outline.dark:hover {
+  background-color: #ef6c00;
+  color: #fff;
+}
+.btn.orange.outline.light {
+  background-color: transparent;
+  border-color: #ffcc80;
+  color: #ffcc80;
+}
+.btn.orange.outline.light:hover {
+  background-color: #ffcc80;
+  color: #fff;
+}
+.btn.orange.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff9800), to(#ef6c00));
+  background: linear-gradient(#ff9800, #ef6c00);
+  color: #fff;
+}
+.btn.orange.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fb8c00), to(#e65100));
+  background: linear-gradient(#fb8c00, #e65100);
+}
+.btn.pink {
+  background-color: #e91e63;
+  border-color: #d81b60;
+}
+.btn.pink:hover {
+  background-color: #d81b60;
+}
+.btn.pink.dark {
+  background-color: #ad1457;
+  border-color: #880e4f;
+}
+.btn.pink.dark:hover {
+  background-color: #880e4f;
+}
+.btn.pink.light {
+  background-color: #f48fb1;
+  border-color: #f06292;
+}
+.btn.pink.light:hover {
+  background-color: #f06292;
+}
+.btn.pink.outline {
+  background-color: transparent;
+  border-color: #e91e63;
+  color: #e91e63;
+}
+.btn.pink.outline:hover {
+  color: #fff;
+  background-color: #e91e63;
+}
+.btn.pink.outline.dark {
+  background-color: transparent;
+  border-color: #ad1457;
+  color: #ad1457;
+}
+.btn.pink.outline.dark:hover {
+  background-color: #ad1457;
+  color: #fff;
+}
+.btn.pink.outline.light {
+  background-color: transparent;
+  border-color: #f48fb1;
+  color: #f48fb1;
+}
+.btn.pink.outline.light:hover {
+  background-color: #f48fb1;
+  color: #fff;
+}
+.btn.pink.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e91e63), to(#ad1457));
+  background: linear-gradient(#e91e63, #ad1457);
+  color: #fff;
+}
+.btn.pink.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d81b60), to(#880e4f));
+  background: linear-gradient(#d81b60, #880e4f);
+}
+.btn.purple {
+  background-color: #9c27b0;
+  border-color: #8e24aa;
+}
+.btn.purple:hover {
+  background-color: #8e24aa;
+}
+.btn.purple.dark {
+  background-color: #6a1b9a;
+  border-color: #4a148c;
+}
+.btn.purple.dark:hover {
+  background-color: #4a148c;
+}
+.btn.purple.light {
+  background-color: #ce93d8;
+  border-color: #ba68c8;
+}
+.btn.purple.light:hover {
+  background-color: #ba68c8;
+}
+.btn.purple.outline {
+  background-color: transparent;
+  border-color: #9c27b0;
+  color: #9c27b0;
+}
+.btn.purple.outline:hover {
+  color: #fff;
+  background-color: #9c27b0;
+}
+.btn.purple.outline.dark {
+  background-color: transparent;
+  border-color: #6a1b9a;
+  color: #6a1b9a;
+}
+.btn.purple.outline.dark:hover {
+  background-color: #6a1b9a;
+  color: #fff;
+}
+.btn.purple.outline.light {
+  background-color: transparent;
+  border-color: #ce93d8;
+  color: #ce93d8;
+}
+.btn.purple.outline.light:hover {
+  background-color: #ce93d8;
+  color: #fff;
+}
+.btn.purple.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9c27b0), to(#6a1b9a));
+  background: linear-gradient(#9c27b0, #6a1b9a);
+  color: #fff;
+}
+.btn.purple.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8e24aa), to(#4a148c));
+  background: linear-gradient(#8e24aa, #4a148c);
+}
+.btn.red {
+  background-color: #f44336;
+  border-color: #e53935;
+}
+.btn.red:hover {
+  background-color: #e53935;
+}
+.btn.red .tooltip {
+  position: static;
+  width: 20px;
+  height: 20px;
+  background-color: #111;
+  top: 0px;
+}
+.btn.red.dark {
+  background-color: #c62828;
+  border-color: #b71c1c;
+}
+.btn.red.dark:hover {
+  background-color: #b71c1c;
+}
+.btn.red.light {
+  background-color: #ef9a9a;
+  border-color: #e57373;
+}
+.btn.red.light:hover {
+  background-color: #e57373;
+}
+.btn.red.outline {
+  background-color: transparent;
+  border-color: #f44336;
+  color: #f44336;
+}
+.btn.red.outline:hover {
+  color: #fff;
+  background-color: #f44336;
+}
+.btn.red.outline.dark {
+  background-color: transparent;
+  border-color: #c62828;
+  color: #c62828;
+}
+.btn.red.outline.dark:hover {
+  background-color: #c62828;
+  color: #fff;
+}
+.btn.red.outline.light {
+  background-color: transparent;
+  border-color: #ef9a9a;
+  color: #ef9a9a;
+}
+.btn.red.outline.light:hover {
+  background-color: #ef9a9a;
+  color: #fff;
+}
+.btn.red.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f44336), to(#c62828));
+  background: linear-gradient(#f44336, #c62828);
+  color: #fff;
+}
+.btn.red.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e53935), to(#b71c1c));
+  background: linear-gradient(#e53935, #b71c1c);
+}
+.btn.teal {
+  background-color: #009688;
+  border-color: #00897b;
+}
+.btn.teal:hover {
+  background-color: #00897b;
+}
+.btn.teal.dark {
+  background-color: #00695c;
+  border-color: #004d40;
+}
+.btn.teal.dark:hover {
+  background-color: #004d40;
+}
+.btn.teal.light {
+  background-color: #80cbc4;
+  border-color: #4db6ac;
+}
+.btn.teal.light:hover {
+  background-color: #4db6ac;
+}
+.btn.teal.outline {
+  background-color: transparent;
+  border-color: #009688;
+  color: #009688;
+}
+.btn.teal.outline:hover {
+  color: #fff;
+  background-color: #009688;
+}
+.btn.teal.outline.dark {
+  background-color: transparent;
+  border-color: #00695c;
+  color: #00695c;
+}
+.btn.teal.outline.dark:hover {
+  background-color: #00695c;
+  color: #fff;
+}
+.btn.teal.outline.light {
+  background-color: transparent;
+  border-color: #80cbc4;
+  color: #80cbc4;
+}
+.btn.teal.outline.light:hover {
+  background-color: #80cbc4;
+  color: #fff;
+}
+.btn.teal.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#00695c));
+  background: linear-gradient(#009688, #00695c);
+  color: #fff;
+}
+.btn.teal.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00897b), to(#004d40));
+  background: linear-gradient(#00897b, #004d40);
+}
+.btn.yellow {
+  background-color: #ffeb3b;
+  border-color: #fdd835;
+}
+.btn.yellow:hover {
+  background-color: #fdd835;
+}
+.btn.yellow.dark {
+  background-color: #f9a825;
+  border-color: #f57f17;
+}
+.btn.yellow.dark:hover {
+  background-color: #f57f17;
+}
+.btn.yellow.light {
+  background-color: #fff59d;
+  border-color: #fff176;
+}
+.btn.yellow.light:hover {
+  background-color: #fff176;
+}
+.btn.yellow.outline {
+  background-color: transparent;
+  border-color: #ffeb3b;
+  color: #ffeb3b;
+}
+.btn.yellow.outline:hover {
+  color: #fff;
+  background-color: #ffeb3b;
+}
+.btn.yellow.outline.dark {
+  background-color: transparent;
+  border-color: #f9a825;
+  color: #f9a825;
+}
+.btn.yellow.outline.dark:hover {
+  background-color: #f9a825;
+  color: #fff;
+}
+.btn.yellow.outline.light {
+  background-color: transparent;
+  border-color: #fff59d;
+  color: #fff59d;
+}
+.btn.yellow.outline.light:hover {
+  background-color: #fff59d;
+  color: #fff;
+}
+.btn.yellow.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffeb3b), to(#f9a825));
+  background: linear-gradient(#ffeb3b, #f9a825);
+  color: #fff;
+}
+.btn.yellow.gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdd835), to(#f57f17));
+  background: linear-gradient(#fdd835, #f57f17);
+}
+.btn.rounded {
+  border-radius: 500px;
+}
+.btn.shadow {
+  -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+          box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+}
+.btn.semi-transparent {
+  opacity: 0.5;
+}
+.btn.small {
+  font-size: 50%;
+  padding: 5px 15px;
+}
+.btn.medium {
+  font-size: 75%;
+  padding: 7.5px 22.5px;
+}
+.btn.large {
+  font-size: 125%;
+  padding: 12.5px 37.5px;
+}
+.btn.transition {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 
