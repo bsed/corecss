@@ -81,6 +81,8 @@ html {
 *:after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
+    text-decoration: inherit;
+    vertical-align: inherit;
 }
 
 img,
@@ -101,6 +103,11 @@ video {
 audio:not([controls]) {
     display: none;
     height: 0;
+}
+
+template,
+[hidden] {
+    display: none;
 }
 
 iframe {
