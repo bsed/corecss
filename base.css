@@ -238,6 +238,7 @@ strong {
 
 ol,
 ul {
+    padding: 0;
     list-style: none;
 }
 
@@ -326,10 +327,13 @@ p {
 }
 
 a {
+    color: #c9282e;
     cursor: pointer;
     text-decoration: none;
     background: transparent;
+    outline: 0;
 }
+
 
 a strong {
     color: currentColor;
@@ -337,6 +341,15 @@ a strong {
 
 a:active, a:hover {
     outline-width: 0;
+}
+
+a:hover {
+    color: #ff0008;
+    transition: color 200ms ease-in-out;
+}
+
+a:focus {
+    outline: none;
 }
 
 dfn {
@@ -382,4 +395,8 @@ ul {
 
 ol {
     list-style: decimal inside;
+}
+
+li {
+    list-style: none;
 }
