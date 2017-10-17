@@ -339,6 +339,17 @@ a:active, a:hover {
     outline-width: 0;
 }
 
+dfn {
+    font-style: italic;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+
 .clearfix:after {
     clear: both;
     content: " ";
