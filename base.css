@@ -326,9 +326,9 @@ p {
 }
 
 a {
-    color: #00d1b2;
     cursor: pointer;
     text-decoration: none;
+    background: transparent;
 }
 
 a strong {
