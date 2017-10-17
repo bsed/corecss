@@ -68,6 +68,8 @@ html {
     height: 101%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
     /** 强制垂直滚动条 */
     /* margin-top: 0; */
 }
