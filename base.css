@@ -335,8 +335,8 @@ a strong {
     color: currentColor;
 }
 
-a:hover {
-    color: #363636;
+a:active, a:hover {
+    outline-width: 0;
 }
 
 .clearfix:after {
