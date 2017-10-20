@@ -3,7 +3,11 @@
 ------------------------------------------------------------*/
 
 /* input基础样式 */
-input[type='text'], input[type='password'], input[type='email'], input[type='search'], select
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='search'],
+select
 {
     font-family: 'Open Sans';
 
@@ -25,7 +29,8 @@ input[type='text'], input[type='password'], input[type='email'], input[type='sea
 
 
 /* textarea 基础样式*/
-textarea, textarea[type=text]
+textarea,
+textarea[type=text]
 {
     font-family: Helvetica, Arial, tohoma, sans-serif,'Open Sans';
 
@@ -47,7 +52,12 @@ textarea, textarea[type=text]
 
 
 /*set border on focus*/
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+textarea:focus,
+textarea[type=text]:focus
 {
     border: 1px solid #99b3ff;
     border-radius: 4px;
@@ -60,8 +70,11 @@ textarea
 }
 
 
- /** 去除移动端内部阴影*/
- input, textarea {
-     border: 0;  /*方法一*/
-     -webkit-appearance: none; /*方法二*/
- }
+/** 去除移动端内部阴影*/
+input,
+textarea
+{
+    border: 0;  /*方法一*/
+
+    -webkit-appearance: none; /*方法二*/
+}

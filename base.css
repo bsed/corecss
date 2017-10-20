@@ -38,7 +38,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+{
     margin: 0;
     padding: 0;
 }
@@ -48,66 +49,82 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+{
     font-size: 100%;
     font-weight: normal;
 }
 
-ul {
+ul
+{
     list-style: none;
 }
 
 button,
 input,
 select,
-textarea {
+textarea
+{
     margin: 0;
 }
 
-html {
-    height: 101%;
+html
+{
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -ms-text-size-adjust: 100%;
+            box-sizing: border-box;
+    height: 101%;
+
+        -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     /** 强制垂直滚动条 */
     /* margin-top: 0; */
 }
 
-* {
+*
+{
     -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+            box-sizing: inherit;
 }
 
 *,
 ::before,
-::after {
-    background-repeat: no-repeat;
+::after
+{
     box-sizing: inherit;
+
+    background-repeat: no-repeat;
 }
 
 ::before,
-::after {
+::after
+{
     -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-    text-decoration: inherit;
+            box-sizing: inherit;
+
     vertical-align: inherit;
+    text-decoration: inherit;
 }
 
-:root {
-    box-sizing: border-box;
-    font-family: "Helvetica", "Arial", sans-serif;
-    line-height: 1.5;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: white;
-    color: #444;
+:root
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
+    line-height: 1.5;
+
+    box-sizing: border-box;
+
+    color: #444;
+    background-color: white;
+
+        -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
 
-@media (min-width: 480px) {
-     :root {
+@media (min-width: 480px)
+{
+    :root
+    {
         font-size: 18px;
     }
 }
@@ -116,69 +133,86 @@ img,
 embed,
 object,
 audio,
-video {
+video
+{
     max-width: 100%;
 }
 
 audio,
 canvas,
 progress,
-video {
+video
+{
     display: inline-block;
 }
 
-audio:not([controls]) {
+audio:not([controls])
+{
     display: none;
+
     height: 0;
 }
 
-progress {
+progress
+{
     vertical-align: baseline;
 }
 
 template,
-[hidden] {
+[hidden]
+{
     display: none;
 }
 
-iframe {
+iframe
+{
     border: 0;
 }
 
-table {
-    border-collapse: collapse;
+table
+{
     border-spacing: 0;
+    border-collapse: collapse;
 }
 
 td,
-th {
+th
+{
     padding: 0;
+
     text-align: left;
 }
 
-html {
-    background-color: #fff;
+html
+{
     font-size: 16px;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    min-width: 300px;
+
     overflow-x: hidden;
     overflow-y: scroll;
+
+    min-width: 300px;
+
+    background-color: #fff;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
 }
 
 
 /** 设置 body 的字体颜色和字体尺寸*/
 
-body {
-    color: #4a4a4a;
+body
+{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+
+    color: #4a4a4a;
 }
 
 
@@ -205,7 +239,8 @@ hgroup,
 menu,
 nav,
 section,
-summary {
+summary
+{
     display: block;
 }
 
@@ -213,190 +248,243 @@ body,
 button,
 input,
 select,
-textarea {
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+textarea
+{
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-img {
-    height: auto;
+img
+{
     max-width: 100%;
+    height: auto;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio']
+{
     vertical-align: baseline;
 }
 
-small {
+small
+{
     font-size: .875em;
 }
 
-strong {
-    color: #363636;
+strong
+{
     font-weight: 700;
+
+    color: #363636;
 }
 
 ol,
-ul {
+ul
+{
     padding: 0;
+
     list-style: none;
 }
 
-pre {
-    background-color: whitesmoke;
-    color: #4a4a4a;
-    font-size: 0.875em;
+pre
+{
+    font-size: .875em;
+
     white-space: pre;
     word-wrap: normal;
-}
 
-pre code {
-    -webkit-overflow-scrolling: touch;
-    background: none;
-    color: inherit;
-    display: block;
-    font-size: 1em;
-    overflow-x: auto;
-    padding: 1.25rem 1.5rem;
-}
-
-code {
+    color: #4a4a4a;
     background-color: whitesmoke;
-    color: #ff3860;
+}
+
+pre code
+{
+    font-size: 1em;
+
+    display: block;
+    overflow-x: auto;
+
+    padding: 1.25rem 1.5rem;
+
+    color: inherit;
+    background: none;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+code
+{
     font-size: .875em;
     font-weight: normal;
+
     padding: .25em .5em .25em;
+
+    color: #ff3860;
+    background-color: whitesmoke;
 }
 
-hr {
-    background-color: #dbdbdb;
-    border: none;
+hr
+{
     display: block;
+
     height: 1px;
     margin: 1.5rem 0;
+
+    border: none;
+    background-color: #dbdbdb;
 }
 
 blockquote,
-q {
+q
+{
     quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after {
+q:after
+{
     content: '';
     content: none;
 }
 
-strong {
+strong
+{
     font-weight: bold;
 }
 
 
 /*Safari浏览器下的label标签，在按住的时候出现灰色背景*/
 
-label {
+label
+{
     cursor: default;
 }
 
-table {
+table
+{
     border-spacing: 0;
     border-collapse: collapse;
 }
 
 table td,
-table th {
+table th
+{
     text-align: left;
     vertical-align: top;
 }
 
-table th {
+table th
+{
     color: #363636;
 }
 
-img {
+img
+{
     max-width: 100%;
+
     border: 0;
 }
 
-p {
+p
+{
     font-size: 1.2em;
     line-height: 1.0em;
+
     color: #333;
 }
 
-a {
-    color: #c9282e;
+a
+{
     cursor: pointer;
     text-decoration: none;
-    background: transparent;
+
+    color: #c9282e;
     outline: 0;
+    background: transparent;
 }
 
 
-a strong {
+a strong
+{
     color: currentColor;
 }
 
-a:active, a:hover {
+a:active,
+a:hover
+{
     outline-width: 0;
 }
 
-a:hover {
-    color: #ff0008;
+a:hover
+{
     transition: color 200ms ease-in-out;
+
+    color: #ff0008;
 }
 
-a:focus {
+a:focus
+{
     outline: none;
 }
 
-dfn {
+dfn
+{
     font-style: italic;
 }
 
-abbr[title] {
-    border-bottom: none;
+abbr[title]
+{
     text-decoration: underline;
     text-decoration: underline dotted;
+
+    border-bottom: none;
 }
 
 
-.clearfix:after {
-    clear: both;
-    content: " ";
+.clearfix:after
+{
     display: table;
+    clear: both;
+
+    content: ' ';
 }
 
-.pl {
+.pl
+{
     float: left !important;
 }
 
-.pr {
+.pr
+{
     float: right !important;
 }
 
-.clipped {
+.clipped
+{
     overflow: hidden !important;
 }
 
-.overlay {
+.overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
     bottom: 0;
     left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
-ul {
+ul
+{
     list-style: circle inside;
 }
 
-ol {
+ol
+{
     list-style: decimal inside;
 }
 
-li {
+li
+{
     list-style: none;
 }

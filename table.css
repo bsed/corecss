@@ -1,72 +1,107 @@
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+font - size: 2em;
+
+margin: .67em 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font - weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
-    margin: 1em 0;
-    /* margin: 1rem 0; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+margin: 1em 0;
+/* margin: 1rem 0; */
 }
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+line - height: 1.5;
 }
 
 
 
 table {
-    border-color: #F0F0F0;
-    border-collapse: collapse;
-    border-spacing: 2px 2px;
-    box-sizing: border-box;
-    display: table;
-    zoom: 1;
+display: table;
+zoom: 1;
+
+box - sizing: border - box;
+
+border - spacing: 2px 2px;
+border - collapse: collapse;
+
+border - color: #f0f0f0;
 }
 
 table tbody {
-    box-sizing: border-box;
-    display: table-row-group;
-    vertical-align: middle;
+display: table - row - group;
+
+box - sizing: border - box;
+
+vertical - align: middle;
 }
 
 table th {
-    display: table-cell;
-    font-weight: bold;
-    padding: 1px;
-    text-align: center;
-    vertical-align: middle;
-    zoom: 1;
+font - weight: bold;
+
+display: table - cell;
+zoom: 1;
+
+padding: 1px;
+
+text - align: center;
+vertical - align: middle;
 }
 
 table td {
-    display: table-cell;
-    padding: 1px;
-    vertical-align: middle;
-    zoom: 1;
+display: table - cell;
+zoom: 1;
+
+padding: 1px;
+
+vertical - align: middle;
 }
 
 table tfoot {
-    box-sizing: border-box;
-    display: table-footer-group;
-    vertical-align: middle;
+display: table - footer - group;
+/*  box-sizing: border-box; */
+
+vertical - align: middle;
 }
 
 table thead {
-    box-sizing: border-box;
-    display: table-header-group;
-    vertical-align: middle;
+display: table - header - group;
+/*     box-sizing: border-box;
+ */
+
+vertical - align: middle;
 }
 
 table tr {
-    box-sizing: border-box;
-    display: table-row;
-    vertical-align: middle;
-    zoom: 1;
+display: table - row;
+zoom: 1;
+/*     box-sizing: border-box;
+ */
+
+vertical - align: middle;
 }
 
-tbody tr:nth-child(odd) {
-    background-color: #ccc;
+tbody tr: nth - child(odd) {
+background - color: #ccc;
 }
+

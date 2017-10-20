@@ -3,12 +3,13 @@
 ------------------------------------------------------------*/
 pre
 {
+    overflow-y: hidden;
+
     white-space:      pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space:   -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    overflow-y: hidden;
 }
 
 code
@@ -68,8 +69,9 @@ blockquote:before
     color: #ccc;
 }
 
-blockquote *:last-child {
-  margin-bottom: 0;
+blockquote *:last-child
+{
+    margin-bottom: 0;
 }
 
 
@@ -77,10 +79,12 @@ blockquote p
 {
     display: inline;
 }
-hr {
-  border: 0;
-  border-top: 0.1rem solid #f4f5f6;
-  margin: 3.0rem 0;
+hr
+{
+    margin: 3.0rem 0;
+
+    border: 0;
+    border-top: .1rem solid #f4f5f6;
 }
 
 /** 自定义文本选择 */
