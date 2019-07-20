@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /********************************
 base style core
 *********************************/
@@ -6,14 +8,10 @@ base style core
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-/**,
-*:after,
-*:before
-{
-    box-sizing: inherit;
-}
-*/
-
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
 
 /** font-size 以 10 为底数 (10*) */
 
@@ -193,18 +191,6 @@ body {
 
   color: #4a4a4a;
 }
-
-/*
-body {
-    font-family: 62.5%;
-    font-family: 'PingFang SC', 'Open Sans', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, tohoma, sans-serif;
-    font-size: 1.5em;
-    font-weight: 400;
-    line-height: 1.6;
-    line-height: 1;
-    letter-spacing: .01em;
-}
- */
 
 article,
 aside,
