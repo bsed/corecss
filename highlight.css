@@ -1,104 +1,93 @@
 /*------------------------------------------------------------
   代码高亮
 ------------------------------------------------------------*/
-pre
-{
-    overflow-y: hidden;
+pre {
+  overflow-y: hidden;
 
-    white-space:      pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space:   -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space:      pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space:   -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-code
-{
-    font-size: 90%;
+code {
+  font-size: 90%;
 
-    margin: 0 .2rem;
-    padding: .2rem .5rem;
+  margin: 0 .2rem;
+  padding: .2rem .5rem;
 
-    white-space: nowrap;
+  white-space: nowrap;
 
-    border: 1px solid #e1e1e1;
-    border-radius: 4px;
-    background: #f1f1f1;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background: #f1f1f1;
 }
 
-pre > code
-{
-    display: block;
+pre > code {
+  display: block;
 
-    padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
 
-    white-space:      pre-wrap;
-    /* css-3 */
-    white-space: -moz-pre-wrap;
-    /* Mozilla, since 1999 */
-    white-space: -pre-wrap;
-    /* Opera 4-6 */
-    white-space:   -o-pre-wrap;
-    /* Opera 7 */
-    word-wrap: break-word;
-    /* Internet Explorer 5.5+ */
+  white-space:      pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space:   -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
 }
 
 /** CSS块引用模板 */
-blockquote
-{
-    margin: 1.5em 10px;
-    padding: .5em 10px;
+blockquote {
+  margin: 1.5em 10px;
+  padding: .5em 10px;
 
-    quotes: '\201C''\201D''\2018''\2019';
+  quotes: '\201C''\201D''\2018''\2019';
 
-    border-left: 10px solid #ccc;
-    background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  background: #f9f9f9;
 }
 
-blockquote:before
-{
-    font-size: 4em;
-    line-height: .1em;
+blockquote:before {
+  font-size: 4em;
+  line-height: .1em;
 
-    margin-right: .25em;
+  margin-right: .25em;
 
-    content: open-quote;
-    vertical-align: -.4em;
+  content: open-quote;
+  vertical-align: -.4em;
 
-    color: #ccc;
+  color: #ccc;
 }
 
-blockquote *:last-child
-{
-    margin-bottom: 0;
+blockquote *:last-child {
+  margin-bottom: 0;
 }
 
-
-blockquote p
-{
-    display: inline;
+blockquote p {
+  display: inline;
 }
-hr
-{
-    margin: 3.0rem 0;
 
-    border: 0;
-    border-top: .1rem solid #f4f5f6;
+hr {
+  margin: 3.0rem 0;
+
+  border: 0;
+  border-top: .1rem solid #f4f5f6;
 }
 
 /** 自定义文本选择 */
-::selection
-{
-    background: #e2eae2;
+::selection {
+  background: #e2eae2;
 }
 
-::-moz-selection
-{
-    background: #e2eae2;
+::-moz-selection {
+  background: #e2eae2;
 }
 
-::-webkit-selection
-{
-    background: #e2eae2;
+::-webkit-selection {
+  background: #e2eae2;
 }

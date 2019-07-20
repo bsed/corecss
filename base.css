@@ -3,6 +3,7 @@ base style core
 *********************************/
 
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /**,
@@ -38,10 +39,9 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
-    margin: 0;
-    padding: 0;
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -49,172 +49,150 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
-    font-size: 100%;
-    font-weight: normal;
+h6 {
+  font-size: 100%;
+  font-weight: normal;
 }
 
-ul
-{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 button,
 input,
 select,
-textarea
-{
-    margin: 0;
+textarea {
+  margin: 0;
 }
 
-html
-{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    height: 101%;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 101%;
 
-        -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    /** 强制垂直滚动条 */
-    /* margin-top: 0; */
+      -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /** 强制垂直滚动条 */
+  /* margin-top: 0; */
 }
 
-*
-{
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 *,
 ::before,
-::after
-{
-    box-sizing: inherit;
+::after {
+  box-sizing: inherit;
 
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 ::before,
-::after
-{
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 
-    vertical-align: inherit;
-    text-decoration: inherit;
+  vertical-align: inherit;
+  text-decoration: inherit;
 }
 
-:root
-{
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+:root {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    color: #444;
-    background-color: white;
+  color: #444;
+  background-color: white;
 
-        -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+      -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
-@media (min-width: 480px)
-{
-    :root
-    {
-        font-size: 18px;
-    }
+@media (min-width: 480px) {
+  :root {
+    font-size: 18px;
+  }
 }
 
 img,
 embed,
 object,
 audio,
-video
-{
-    max-width: 100%;
+video {
+  max-width: 100%;
 }
 
 audio,
 canvas,
 progress,
-video
-{
-    display: inline-block;
+video {
+  display: inline-block;
 }
 
-audio:not([controls])
-{
-    display: none;
+audio:not([controls]) {
+  display: none;
 
-    height: 0;
+  height: 0;
 }
 
-progress
-{
-    vertical-align: baseline;
+progress {
+  vertical-align: baseline;
 }
 
 template,
-[hidden]
-{
-    display: none;
+[hidden] {
+  display: none;
 }
 
-iframe
-{
-    border: 0;
+iframe {
+  border: 0;
 }
 
-table
-{
-    border-spacing: 0;
-    border-collapse: collapse;
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 td,
-th
-{
-    padding: 0;
+th {
+  padding: 0;
 
-    text-align: left;
+  text-align: left;
 }
 
-html
-{
-    font-size: 16px;
+html {
+  font-size: 16px;
 
-    overflow-x: hidden;
-    overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 
-    min-width: 300px;
+  min-width: 300px;
 
-    background-color: #fff;
+  background-color: #fff;
 
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -webkit-text-size-adjust: 100%;
-       -moz-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-            text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
-
 
 /** 设置 body 的字体颜色和字体尺寸*/
 
-body
-{
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #4a4a4a;
+  color: #4a4a4a;
 }
-
 
 /*
 body {
@@ -239,252 +217,214 @@ hgroup,
 menu,
 nav,
 section,
-summary
-{
-    display: block;
+summary {
+  display: block;
 }
 
 body,
 button,
 input,
 select,
-textarea
-{
-    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+textarea {
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-img
-{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 input[type='checkbox'],
-input[type='radio']
-{
-    vertical-align: baseline;
+input[type='radio'] {
+  vertical-align: baseline;
 }
 
-small
-{
-    font-size: .875em;
+small {
+  font-size: .875em;
 }
 
-strong
-{
-    font-weight: 700;
+strong {
+  font-weight: 700;
 
-    color: #363636;
+  color: #363636;
 }
 
 ol,
-ul
-{
-    padding: 0;
+ul {
+  padding: 0;
 
-    list-style: none;
+  list-style: none;
 }
 
-pre
-{
-    font-size: .875em;
+pre {
+  font-size: .875em;
 
-    white-space: pre;
-    word-wrap: normal;
+  white-space: pre;
+  word-wrap: normal;
 
-    color: #4a4a4a;
-    background-color: whitesmoke;
+  color: #4a4a4a;
+  background-color: whitesmoke;
 }
 
-pre code
-{
-    font-size: 1em;
+pre code {
+  font-size: 1em;
 
-    display: block;
-    overflow-x: auto;
+  display: block;
+  overflow-x: auto;
 
-    padding: 1.25rem 1.5rem;
+  padding: 1.25rem 1.5rem;
 
-    color: inherit;
-    background: none;
+  color: inherit;
+  background: none;
 
-    -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 }
 
-code
-{
-    font-size: .875em;
-    font-weight: normal;
+code {
+  font-size: .875em;
+  font-weight: normal;
 
-    padding: .25em .5em .25em;
+  padding: .25em .5em .25em;
 
-    color: #ff3860;
-    background-color: whitesmoke;
+  color: #ff3860;
+  background-color: whitesmoke;
 }
 
-hr
-{
-    display: block;
+hr {
+  display: block;
 
-    height: 1px;
-    margin: 1.5rem 0;
+  height: 1px;
+  margin: 1.5rem 0;
 
-    border: none;
-    background-color: #dbdbdb;
+  border: none;
+  background-color: #dbdbdb;
 }
 
 blockquote,
-q
-{
-    quotes: none;
+q {
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after
-{
-    content: '';
-    content: none;
+q:after {
+  content: '';
+  content: none;
 }
 
-strong
-{
-    font-weight: bold;
+strong {
+  font-weight: bold;
 }
-
 
 /*Safari浏览器下的label标签，在按住的时候出现灰色背景*/
 
-label
-{
-    cursor: default;
+label {
+  cursor: default;
 }
 
-table
-{
-    border-spacing: 0;
-    border-collapse: collapse;
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 table td,
-table th
-{
-    text-align: left;
-    vertical-align: top;
+table th {
+  text-align: left;
+  vertical-align: top;
 }
 
-table th
-{
-    color: #363636;
+table th {
+  color: #363636;
 }
 
-img
-{
-    max-width: 100%;
+img {
+  max-width: 100%;
 
-    border: 0;
+  border: 0;
 }
 
-p
-{
-    font-size: 1.2em;
-    line-height: 1.0em;
+p {
+  font-size: 1.2em;
+  line-height: 1.0em;
 
-    color: #333;
+  color: #333;
 }
 
-a
-{
-    cursor: pointer;
-    text-decoration: none;
+a {
+  cursor: pointer;
+  text-decoration: none;
 
-    color: #c9282e;
-    outline: 0;
-    background: transparent;
+  color: #c9282e;
+  outline: 0;
+  background: transparent;
 }
 
-
-a strong
-{
-    color: currentColor;
+a strong {
+  color: currentColor;
 }
 
 a:active,
-a:hover
-{
-    outline-width: 0;
+a:hover {
+  outline-width: 0;
 }
 
-a:hover
-{
-    transition: color 200ms ease-in-out;
+a:hover {
+  transition: color 200ms ease-in-out;
 
-    color: #ff0008;
+  color: #ff0008;
 }
 
-a:focus
-{
-    outline: none;
+a:focus {
+  outline: none;
 }
 
-dfn
-{
-    font-style: italic;
+dfn {
+  font-style: italic;
 }
 
-abbr[title]
-{
-    text-decoration: underline;
-    text-decoration: underline dotted;
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
 
-    border-bottom: none;
+  border-bottom: none;
 }
 
+.clearfix:after {
+  display: table;
+  clear: both;
 
-.clearfix:after
-{
-    display: table;
-    clear: both;
-
-    content: ' ';
+  content: ' ';
 }
 
-.pl
-{
-    float: left !important;
+.pl {
+  float: left !important;
 }
 
-.pr
-{
-    float: right !important;
+.pr {
+  float: right !important;
 }
 
-.clipped
-{
-    overflow: hidden !important;
+.clipped {
+  overflow: hidden !important;
 }
 
-.overlay
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-ul
-{
-    list-style: circle inside;
+ul {
+  list-style: circle inside;
 }
 
-ol
-{
-    list-style: decimal inside;
+ol {
+  list-style: decimal inside;
 }
 
-li
-{
-    list-style: none;
+li {
+  list-style: none;
 }

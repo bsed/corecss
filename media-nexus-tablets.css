@@ -5,8 +5,7 @@
   and (device-width: 601px)
   and (device-height: 906px)
   and (-webkit-min-device-pixel-ratio: 1.331)
-  and (-webkit-max-device-pixel-ratio: 1.332)
-{
+  and (-webkit-max-device-pixel-ratio: 1.332) {
 }
 
 /* Portrait */
@@ -15,8 +14,7 @@
   and (device-height: 906px)
   and (-webkit-min-device-pixel-ratio: 1.331)
   and (-webkit-max-device-pixel-ratio: 1.332)
-  and (orientation: portrait)
-{
+  and (orientation: portrait) {
 }
 
 /* Landscape */
@@ -25,6 +23,5 @@
   and (device-height: 906px)
   and (-webkit-min-device-pixel-ratio: 1.331)
   and (-webkit-max-device-pixel-ratio: 1.332)
-  and (orientation: landscape)
-{
+  and (orientation: landscape) {
 }

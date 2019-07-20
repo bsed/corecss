@@ -1,17 +1,16 @@
-h1
-{
-    font-size: 2em;
+h1 {
+  font-size: 2em;
 
-    margin: .67em 0;
+  margin: .67em 0;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6
-{
-    font-weight: 400;
+h6 {
+  font-weight: 400;
 }
 
 h1,
@@ -22,10 +21,9 @@ h5,
 h6,
 p,
 ul,
-ol
-{
-    margin: 1em 0;
-    /* margin: 1rem 0; */
+ol {
+  margin: 1em 0;
+  /* margin: 1rem 0; */
 }
 
 h1,
@@ -33,87 +31,76 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
-    line-height: 1.5;
+h6 {
+  line-height: 1.5;
 }
 
+table {
+  display: table;
+  zoom: 1;
 
+  box-sizing: border-box;
 
-table
-{
-    display: table;
-    zoom: 1;
+  border-spacing: 2px 2px;
+  border-collapse: collapse;
 
-    box-sizing: border-box;
-
-    border-spacing: 2px 2px;
-    border-collapse: collapse;
-
-    border-color: #f0f0f0;
+  border-color: #f0f0f0;
 }
 
-table tbody
-{
-    display: table-row-group;
+table tbody {
+  display: table-row-group;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-table th
-{
-    font-weight: bold;
+table th {
+  font-weight: bold;
 
-    display: table-cell;
-    zoom: 1;
+  display: table-cell;
+  zoom: 1;
 
-    padding: 1px;
+  padding: 1px;
 
-    text-align: center;
-    vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
 }
 
-table td
-{
-    display: table-cell;
-    zoom: 1;
+table td {
+  display: table-cell;
+  zoom: 1;
 
-    padding: 1px;
+  padding: 1px;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-table tfoot
-{
-    display: table-footer-group;
+table tfoot {
+  display: table-footer-group;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-table thead
-{
-    display: table-header-group;
+table thead {
+  display: table-header-group;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-table tr
-{
-    display: table-row;
-    zoom: 1;
+table tr {
+  display: table-row;
+  zoom: 1;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-tbody tr:nth-child(odd)
-{
-    background-color: #ccc;
+tbody tr:nth-child(odd) {
+  background-color: #ccc;
 }

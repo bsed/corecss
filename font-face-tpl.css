@@ -3,18 +3,16 @@
   https://css-tricks.com/snippets/css/using-font-face/
 */
 
-@font-face
-{
-    font-family: 'MyWebFont';
+@font-face {
+  font-family: 'MyWebFont';
 
-    src: url('webfont.eot'); /* IE9 Compat Modes */
-    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('webfont.woff') format('woff'), /* Modern Browsers */
-    url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('webfont.woff') format('woff'), /* Modern Browsers */
+  url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-body
-{
-    font-family: 'MyWebFont', Arial, sans-serif;
+body {
+  font-family: 'MyWebFont', Arial, sans-serif;
 }
